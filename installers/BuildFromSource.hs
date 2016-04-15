@@ -59,6 +59,14 @@ configs =
         , "elm-repl"     =: "master"
         ]
     ,
+      "0.17" =:
+        [ "elm-compiler" =: "dev"
+        , "elm-package"  =: "master"
+        , "elm-make"     =: "master"
+        , "elm-reactor"  =: "0.17"
+        , "elm-repl"     =: "master"
+        ]
+    ,
       "0.16" =:
         [ "elm-compiler" =: "0.16"
         , "elm-package"  =: "0.16"
